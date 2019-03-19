@@ -1,0 +1,49 @@
+body{
+	margin: 2px;
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	/* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+	background-attachment: fixed; //此条属性必须设置否则可能无效/
+
+	/* 让背景图基于容器大小伸缩 */
+	background-size: cover;
+	background-size: 100% 100%;
+	width: 640px;
+	height: 358px;
+
+	/* 设置背景颜色，背景图加载过程中会显示背景色 */
+	/*background-color: #CCCCCC;*/
+
+}
+
+#mainuser {
+	align-self: center;
+	margin-top: 1px;
+	border: 2px solid white;
+	padding-left:  1000px;
+	width: 20px;
+	height: 20px;
+}
+
+#bjxx {
+
+}
+
+
+#bjxx1 {
+	
+}
+
+#kqxx {
+	width: 500px;
+	
+}
+
+#kqxx1 {
+	width: 500px;
+	height: 500px;
+	line-height:150%;
+}
